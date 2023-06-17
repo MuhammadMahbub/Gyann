@@ -56,9 +56,19 @@ h6 {
     font-weight: 400;
     color: #fff;
 }
-
+#menu_top .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu_top .header-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
 .top_text i {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #menu_top span a {
@@ -155,7 +165,7 @@ h6 {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    padding: 20px 90px 0px 0;
+    padding: 20px 90px 20px 0;
 }
 
 .banner_text a {
@@ -433,7 +443,7 @@ h6 {
     height: 3px;
     width: 50px;
     background: #fbaa33;
-    left: 115px;
+    left: 38%;
     bottom: 0;
     border-radius: 3px;
 }
@@ -444,7 +454,7 @@ h6 {
     height: 3px;
     width: 10px;
     background: #fbaa33;
-    left: 170px;
+    left: 60%;
     bottom: 0;
     border-radius: 3px;
 }
@@ -474,7 +484,12 @@ h6 {
     line-height: 24px;
     padding: 0px 270px;
 }
-
+#course .teacher_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 .course_item {
     margin-top: 50px;
     padding: 20px;
@@ -770,8 +785,11 @@ h6 {
 
 .evnt_img {
     position: relative;
+    height: 90%;
 }
-
+.evnt_img img.img-fluid {
+    height: 100%;
+}
 .tarikh {
     padding: 5px 10px;
     background: #ff3232;
@@ -864,7 +882,7 @@ h6 {
     width: 210px;
     background: #2d3e50;
     right: 0px;
-    bottom: -15px;
+    bottom: -3%;
     border-radius: 3px;
 }
 
@@ -875,7 +893,7 @@ h6 {
     width: 10px;
     background: #2d3e50;
     right: 215px;
-    bottom: -15px;
+    bottom: -3%;
     border-radius: 3px;
 }
 
@@ -1111,8 +1129,8 @@ h6 {
     height: 5px;
     width: 70px;
     background: #fbaa33;
-    left: 100px;
-    bottom: -15px;
+    left: 33%;
+    bottom: -3%;
     border-radius: 3px;
 }
 
@@ -1122,8 +1140,8 @@ h6 {
     height: 5px;
     width: 10px;
     background: #fbaa33;
-    left: 175px;
-    bottom: -15px;
+    left: 59%;
+    bottom: -3%;
     border-radius: 3px;
 }
 
@@ -1277,7 +1295,7 @@ h6 {
 }
 
 .blog_gal_icon_bot ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px !important;
 }
 
 .blog_gal_icon_bot i {
@@ -1400,6 +1418,9 @@ h6 {
 
 /* footer images part start */
 
+#foot_images .row{
+    margin: 0 !important;
+}
 .ft_img {
     position: relative;
 }
@@ -1465,7 +1486,7 @@ h6 {
 
 .backToTop {
     position: fixed;
-    right: 20px;
+    right: 3%;
     bottom: 20px;
     z-index: 999;
 }

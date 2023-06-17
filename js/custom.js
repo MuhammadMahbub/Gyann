@@ -92,7 +92,7 @@ $(document).ready(function() {
     $('.teacher_slider').slick({
         dots: false,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         infinite: true,
         speed: 1000,
         slidesToShow: 4,

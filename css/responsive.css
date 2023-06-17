@@ -1,80 +1,92 @@
-/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .col-lg-4.slick-slide.slick-current.slick-active.slick-center {
+        margin-bottom: 30px;
+    }
+    .about_text {
+        padding-top: 0;
+    }
+    #FAQ{
+        padding-bottom: 50px;
+    }
+    .FAQ_slider_text p {
+        padding-top: 10px;
+    }
+    #FAQ .card-header button {
+        font-size: 16px;
+    }
+    #FAQ .card-header button i {
+        margin-left: 40px;
+    }
+    #FAQ .prev {
+        left: 10%;
+        top: 75%;
+    }
+    #FAQ .next {
+        left: 20%;
+        top: 75%;
+    }
+    #course .prev, #course .next {
+        display: none !important;
+    }
+    .teacher_name::after {
+        left: 65%;
+    }
+    
+}
 
-@media (max-width: 575.98px) {
-    /* ... ........ header part start..............*/
-    .navbar-toggler i {
-        font-size: 30px;
-        float: right;
-    }
-    .navbar-toggler {
-        padding-top: 20px;
-    }
-    .navbar {
-        padding: 0px 10px;
-    }
-    .navbar-nav {
-        text-align: center;
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ......................header part start....................... */
+    i.fas.fa-phone-alt {
+        font-size: 13px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0 0 10px 0;
     }
-    .navbar-nav .nav-item .nav-link:hover {
-        color: #fbaa33;
-    }
-    #menu .btn {
-        background: transparent;
-        margin: auto;
-        width: 100%;
-    }
-    #menu .btn a {
-        background: #fbaa33;
-        border-radius: 5px;
-    }
-    /* .............banner part start .................*/
-    .banner_part .banner_overlay {
-        padding-top: 70px;
-        padding-bottom: 150px;
-    }
-    .banner_text h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-    .banner_text h3 {
+    
+    .fa,
+    .fas {
         font-size: 40px;
-        text-align: center;
     }
-    .banner_text p {
-        font-size: 12px;
-        padding: 0;
-        text-align: center;
-    }
-    #banner .next {
-        opacity: 0;
+    .banner_text.text-white {
+        padding-left: 80px;
     }
     #banner .prev {
-        opacity: 0;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 30px;
     }
-    .banner_text a {
-        font-size: 15px;
+    #banner .next {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 30px;
     }
-    /* ..............learning part start............  */
+    /* ......................learning part start....................... */
     .learning_part {
         padding: 15px 0;
     }
-    /*................. about part start ...................*/
-    .about_head_text h1 {
-        padding-bottom: 15px;
-        margin-top: -50px;
+    .learning_part h1 {
+        font-size: 20px;
+    }
+    /* ......................about part start....................... */
+    #about {
+        padding-bottom: 50px;
     }
     .about_head_text p {
         padding: 0;
     }
+    .about_text {
+        padding: 0;
+    }
+    .about_text p {
+        padding-bottom: 0;
+    }
     .top_bar::after {
         width: 200px;
-        left: 10px;
     }
     .top_bar::before {
-        left: 215px;
+        left: 205px;
     }
     .bottom_bar::after {
         width: 200px;
@@ -82,137 +94,90 @@
     .bottom_bar::before {
         right: 205px;
     }
-    .about_text a {
-        padding: 5px 15px;
-        margin-right: 10px;
+    /* ......................counter part start....................... */
+    .counter_item {
+        padding-top: 25px;
     }
-    #about {
-        padding-bottom: 50px;
-    }
-    /*................. counter part start............... */
     .counter_item h3::before {
-        left: calc(50%);
-        bottom: 10px;
-        transform: translateX(-50%);
+        left: 42%;
     }
     .counter_item h3::after {
-        bottom: 10px;
-        left: calc(50% + 30px);
+        left: calc(42% + 55px);
     }
-    /*................course part start................. */
+    /* ......................course part start....................... */
     #course {
         padding-top: 50px;
         padding-bottom: 50px;
     }
     .course_head p {
-        padding: 0;
-        margin-bottom: -20px;
+        padding: 0px;
     }
-    /* ................events part start................. */
-    #event {
-        padding-bottom: 50px;
+    #course .prev, #course .next {
+        display: none !important;
     }
-    #event .event_head h1 {
-        padding-bottom: 10px;
+    #course .col-lg-4.slick-slide.slick-active {
+        margin-bottom: 30px;
     }
+    /* ......................events part start....................... */
     #event .event_head p {
         padding: 0;
     }
-    .clndr_img img {
-        height: 100%;
+    #event {
+        padding-bottom: 50px;
     }
-    .clndr_img {
-        height: 250px;
-        margin-bottom: 20px;
-    }
-    .evnt_img img {
-        width: 100%;
-    }
-    .event_item_text h1 {
-        font-size: 15px;
-        padding-bottom: 5px;
-        padding-top: 10px;
+    .event_item_text i {
+        font-size: 16px;
     }
     .tarikh {
-        right: 15px;
+        right: 2%;
+        bottom: -76%;
     }
-    /* ..................FAQ part start.............*/
+    /* ......................FAQ part start....................... */
     #FAQ {
-        padding-bottom: 00px;
-    }
-    .FAQ_head h1 {
-        font-size: 25px;
-        padding-bottom: 10px;
-    }
-    .FAQ_head p {
-        padding: 0;
-        margin-bottom: -30px;
-    }
-    .FAQ_bottombar::before {
-        right: 20px;
-    }
-    .FAQ_bottombar::after {
-        right: 235px;
-    }
-    #FAQ .card-header button {
-        font-size: 15px;
-    }
-    #FAQ #accordionExample {
-        margin-top: 40px;
-    }
-    #FAQ .card-header button i {
-        float: right;
-        margin-right: 20px;
-        margin-left: 0;
-    }
-    /* ...................teacher part start ...............*/
-    #teacher {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .FAQ_head p {
+        padding: 0;
+    }
+    .FAQ_bottombar::before {
+        right: 50px;
+    }
+    .FAQ_bottombar::after {
+        right: 265px;
+    }
+    .FAQ_slider_text p {
+        padding-bottom: 0;
+    }
+    #FAQ h6 {
+        padding-bottom: 10px;
+    }
+    /* ......................teacher part start....................... */
     .teacher_head p {
-        padding: 10px 0 0 0;
+        padding: 0;
     }
     .teacher_name::before {
-        left: 36%;
+        left: 35%;
     }
     .teacher_name::after {
-        left: 60%;
+        left: calc(35% + 75px);
     }
-    /* ...................blog part start.................. */
-    .blog_quote {
-        left: 25px;
-        bottom: 25px;
+    .teacher_item {
+        padding-top: 20px;
     }
-    .blog_quote h1 {
-        font-weight: 700;
-        font-size: 15px;
-        padding-bottom: 0px;
-    }
+    /* ......................blog part start....................... */
     .blog_head p {
-        padding: 10px 0 0 0;
+        padding: 0;
     }
-    .blog_img {
-        margin-bottom: 10px;
+    .blog_gal_icon_top {
+        top: 5px;
+        right: 5px;
     }
-    /* .....................footer part start ,.......................*/
+    .blog_gal_icon_bot {
+        right: 5px;
+    }
+    
 }
-
-
-/* problems */
-
-
-/* 
-1. menu te click korle jhamela hocche
-1. OUR COURSES section puratai
-2. EVENTS section e seminar part
-3. 575 korlei nicher all part ei jhamela hocche*/
-
-
-/* problems */
-
-
-/* // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* ... ........ header part start..............*/
@@ -327,6 +292,7 @@
         padding: 0;
         margin-bottom: -20px;
     }
+    
     /* ......................events part start....................... */
     #event .event_head h1 {
         padding-bottom: 15px;
@@ -339,6 +305,9 @@
     }
     #event {
         padding-bottom: 50px;
+    }
+    #event .event_item_text .time {
+        margin-left: 0 !important;
     }
     /* ......................FAQ part start....................... */
     .FAQ_head h1 {
@@ -382,69 +351,81 @@
     }
 }
 
-
-/* problrms */
-
-
-/* 
-1.course part
-2. events part
-3. blog part e hover  e
-4. accordian er icon ta could not move
- */
-
-
-/* problrms */
-
-
-/* // Medium devices (tablets, 768px and up) */
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    /* ......................header part start....................... */
-    .fa,
-    .fas {
-        font-size: 40px;
-    }
-    .banner_text.text-white {
-        padding-left: 80px;
-    }
-    #banner .prev {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
+@media (min-width: 424px) and (max-width: 575.98px) {
+    /* ... ........ header part start..............*/
+    .navbar-toggler i {
         font-size: 30px;
+        float: right;
+    }
+    .navbar-toggler {
+        padding-top: 20px;
+    }
+    .navbar {
+        padding: 0px 10px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 0 10px 0;
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #fbaa33;
+    }
+    #menu .btn {
+        background: transparent;
+        margin: auto;
+        width: 100%;
+    }
+    #menu .btn a {
+        background: #fbaa33;
+        border-radius: 5px;
+    }
+    /* .............banner part start .................*/
+    .banner_part .banner_overlay {
+        padding-top: 70px;
+        padding-bottom: 150px;
+    }
+    .banner_text h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner_text h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner_text p {
+        font-size: 12px;
+        padding: 0;
+        text-align: center;
     }
     #banner .next {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        font-size: 30px;
+        opacity: 0;
     }
-    /* ......................learning part start....................... */
+    #banner .prev {
+        opacity: 0;
+    }
+    .banner_text a {
+        font-size: 15px;
+    }
+    /* ..............learning part start............  */
     .learning_part {
         padding: 15px 0;
     }
-    .learning_part h1 {
-        font-size: 20px;
-    }
-    /* ......................about part start....................... */
-    #about {
-        padding-bottom: 50px;
+    /*................. about part start ...................*/
+    .about_head_text h1 {
+        padding-bottom: 15px;
+        margin-top: -50px;
     }
     .about_head_text p {
         padding: 0;
     }
-    .about_text {
-        padding: 0;
-    }
-    .about_text p {
-        padding-bottom: 0;
-    }
     .top_bar::after {
         width: 200px;
+        left: 10px;
     }
     .top_bar::before {
-        left: 205px;
+        left: 215px;
     }
     .bottom_bar::after {
         width: 200px;
@@ -452,97 +433,187 @@
     .bottom_bar::before {
         right: 205px;
     }
-    /* ......................counter part start....................... */
+    .about_text a {
+        padding: 5px 15px;
+        margin-right: 10px;
+    }
+    #about {
+        padding-bottom: 50px;
+    }
+    /*................. counter part start............... */
     .counter_item h3::before {
-        left: 42%;
+        left: calc(50%);
+        bottom: 10px;
+        transform: translateX(-50%);
     }
     .counter_item h3::after {
-        left: calc(42% + 55px);
+        bottom: 10px;
+        left: calc(50% + 30px);
     }
-    /* ......................course part start....................... */
+    /*................course part start................. */
     #course {
         padding-top: 50px;
         padding-bottom: 50px;
     }
     .course_head p {
-        padding: 0px;
-    }
-    /* ......................events part start....................... */
-    #event .event_head p {
         padding: 0;
+        margin-bottom: -20px;
     }
+    #course .slick-initialized .slick-slide {
+        margin-bottom: 30px;
+    }
+    
+    /* ................events part start................. */
     #event {
         padding-bottom: 50px;
     }
-    /* ......................FAQ part start....................... */
+    #event .event_head h1 {
+        padding-bottom: 10px;
+    }
+    #event .event_head p {
+        padding: 0;
+    }
+    .clndr_img img {
+        height: 100%;
+    }
+    .clndr_img {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .evnt_img img {
+        width: 100%;
+    }
+    .event_item_text h1 {
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .tarikh {
+        right: 15px;
+    }
+    .event_item_text .time {
+        margin-left: 0;
+    }
+    /* ..................FAQ part start.............*/
     #FAQ {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 00px;
+    }
+    .FAQ_head h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
     }
     .FAQ_head p {
         padding: 0;
+        margin-bottom: -30px;
     }
     .FAQ_bottombar::before {
-        right: 50px;
+        right: 20px;
     }
     .FAQ_bottombar::after {
-        right: 265px;
+        right: 235px;
     }
-    .FAQ_slider_text p {
-        padding-bottom: 0;
+    #FAQ .card-header button {
+        font-size: 15px;
     }
-    #FAQ h6 {
-        padding-bottom: 10px;
+    #FAQ #accordionExample {
+        margin-top: 40px;
     }
-    /* ......................teacher part start....................... */
+    #FAQ .card-header button i {
+        float: right;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    /* ...................teacher part start ...............*/
+    #teacher {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .teacher_head p {
-        padding: 0;
+        padding: 10px 0 0 0;
     }
     .teacher_name::before {
-        left: 35%;
+        left: 36%;
     }
     .teacher_name::after {
-        left: calc(35% + 75px);
+        left: 60%;
     }
-    .teacher_item {
-        padding-top: 20px;
+    /* ...................blog part start.................. */
+    .blog_quote {
+        left: 25px;
+        bottom: 25px;
     }
-    /* ......................blog part start....................... */
+    .blog_quote h1 {
+        font-weight: 700;
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
     .blog_head p {
-        padding: 0;
+        padding: 10px 0 0 0;
     }
-    .blog_gal_icon_top {
-        top: 5px;
-        right: 5px;
+    .blog_img {
+        margin-bottom: 10px;
     }
-    .blog_gal_icon_bot {
-        right: 5px;
+    #blog_gal img.img-fluid {
+        width: 100%;
     }
+    #menu_top .header-menu ul {
+        display: block;
+        margin-left: 20px;
+    }
+    #menu_top .header-menu ul li {
+        padding-bottom: 5px;
+    }
+    /* .....................footer part start ,.......................*/
 }
 
-
-/* problems */
-
-
-/* 
-    1. course part
-    2. FAQ part
-    3. events part 
-    */
-
-
-/* problems */
-
-
-/* // Large devices (desktops, 992px and up) */
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    ...
+@media (max-width: 423.98px) {
+    #course .prev, #course .next {
+        display: none;
+    }
+    #blog_gal .blog_img img {
+        width: 100%;
+    }
+    .blog_head p, .teacher_head p, .FAQ_head p, #event .event_head p, .course_head p, .about_head_text p {
+        padding: 0 !important;
+    }
+    .event_item_text .time {
+        margin-left: 0;
+    }
+    #event .evnt_img img {
+        width: 100%;
+    }
+    .tarikh {
+        bottom: 10px;
+    }
+    .FAQ_slider_text {
+        margin-bottom: 25px;
+    }
+     h1 {
+        font-size: 24px !important;
+        margin-bottom: 15px !important;
+    }
+    #FAQ .card-header button {
+        font-size: 18px;
+    }
+    #teacher {
+        padding-top: 50px;
+    }
+    .blog_quote_btm h1 {
+        padding-right: 5px;
+    }
+    .teacher_img {
+        height: 250px;
+    }
+    .teacher_img img {
+        height: 100%;
+    }
+    
 }
 
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    ...
+    
 }
+
