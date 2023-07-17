@@ -353,6 +353,13 @@
 
 @media (min-width: 424px) and (max-width: 575.98px) {
     /* ... ........ header part start..............*/
+    #menu_top .header-menu ul {
+        display: block;
+        margin-left: 20px;
+    }
+    #menu_top .header-menu ul li {
+        padding-bottom: 5px;
+    }
     .navbar-toggler i {
         font-size: 30px;
         float: right;
@@ -556,6 +563,10 @@
     #blog_gal img.img-fluid {
         width: 100%;
     }
+    /* .....................footer part start ,.......................*/
+}
+
+@media (max-width: 423.98px) {
     #menu_top .header-menu ul {
         display: block;
         margin-left: 20px;
@@ -563,10 +574,6 @@
     #menu_top .header-menu ul li {
         padding-bottom: 5px;
     }
-    /* .....................footer part start ,.......................*/
-}
-
-@media (max-width: 423.98px) {
     #course .prev, #course .next {
         display: none;
     }
